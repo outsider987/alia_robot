@@ -4,7 +4,7 @@ import XLSX from 'xlsx';
 
 async function run() {
   // Prefer compact JSON array if present; otherwise merge NDJSON
-  const jsonArrayPath = path.resolve('storage/results.json');
+  const jsonArrayPath = path.resolve('storage/results2.json');
   const ndjsonPath = path.resolve('storage/results.ndjson');
   const outDir = path.resolve('storage');
   const outPath = path.join(outDir, 'results.xlsx');
