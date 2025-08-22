@@ -1,0 +1,24 @@
+# Node
+node_modules/
+dist/
+storage/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+
+# Python (if you also use the Scrapy setup)
+__pycache__/
+*.py[cod]
+.venv/
+.scrapy/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs
+*.json
+*.jl
+out/
+.env
